@@ -32,6 +32,7 @@ Now that the component is installed you will need to add the setup to you config
 ```
 switch:
   - platform: lightwave
+    host: ip_address
     devices:
       R1D1:
         name: Room one Device one
